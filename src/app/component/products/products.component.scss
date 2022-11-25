@@ -12,6 +12,7 @@
 
 .item img {
     width: 64px;
+    z-index: 999;
 }
 
 .item {
@@ -38,4 +39,13 @@
 .card img:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
+}
+
+.container-fluid{
+  background: linear-gradient(orange,white,green);
+}
+
+.big{
+    height: 100%;
+    width: 300px;
 }

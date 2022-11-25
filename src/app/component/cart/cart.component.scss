@@ -2,6 +2,9 @@
     height: 60vh;
     margin: 25px;
     padding: 25px;
+    // background: linear-gradient(rgb(188, 148, 188),rgb(174, 186, 174));
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 .center img {
@@ -45,4 +48,9 @@ h6 {
     font-weight: 400;
     padding: 12px 72px;
     border-radius: 3px !important;
+}
+
+.cart-product {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
